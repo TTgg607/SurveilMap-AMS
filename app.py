@@ -83,5 +83,6 @@ def track_map_click():
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Map marker clicked\n")
     return '', 204
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Render会自动传入PORT
+    app.run(host="0.0.0.0", port=port)
