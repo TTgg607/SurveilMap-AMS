@@ -1,0 +1,62 @@
+camera_id,type,location,year,power,vri_number,district_id
+220TVK041,TV Camera,A10/ Verlengde Stellingweg,2021,Eigen voeding,220.0,A
+231TVK091,TV Camera,IJdoornlaan / A10 (S117),2022,VRI 231,231.0,M
+224TVK013,TV Camera,A10/ Nw. Leeuwarderweg,2021,VRI 224,224.0,
+240TVK092,TV Camera,IJdoornlaan/H. Cleyndertweg,2022,VRI 240,240.0,M
+238TVK093,TV Camera,IJdoornlaan / Nw Leeuwarderweg,2022,VRI 238,238.0,M
+225TVK094,TV Camera,Nieuwe Leeuwarderweg,2022,VRI 225,225.0,M
+246TVK070,TV Camera,Zuiderzeeweg (S115),2022,VRI 246,246.0,M
+901TVK086,TV Camera,Haarlemmerweg/Willem Schermerhornstraat,2021,VRI 901,901.0,B
+902TVK085,TV Camera,Haarlemmerweg/Burgemeester de Vlugtlaan,2021,VRI 902,902.0,B
+972TVK084,TV Camera,Haarlemmerweg/Radarweg,2021,VRI 972,972.0,B
+982TVK083,TV Camera,Haarlemmerweg/Kimpoweg,2021,VRI 982,982.0,B
+990TVK082,TV Camera,Haarlemmerweg,2022,VRI 990,990.0,B
+224TVK013,TV Camera,Haarlemmerweg/Molenwerf,2021,VRI 903,903.0,B
+240TVK092,TV Camera,Haarlemmerweg/Vredenhofweg,2021,VRI 978,978.0,B
+238TVK093,TV Camera,Spaarndammertunnel West/Archangelweg,2022,VRI 975,975.0,
+225TVK094,TV Camera,Transformatorweg/Nw. Hemweg,2020,Eigen voeding,975.0,
+246TVK070,TV Camera,Nieuwe Hemweg/Contactweg,2022,Eigen voeding,917.0,
+901TVK086,TV Camera,Transformatorweg/Contactweg,2022,VRI 980,980.0,
+980TVK088,TV Camera,Transformatorweg/Contactweg,2022,VRI 980,980.0,
+915TVK033,TV Camera,A10/Basisweg,2019,VRI 915,915.0,
+910TVK035,TV Camera,Bos en Lommerplein,2020,Eigen voeding,910.0,
+922TVK036,TV Camera,A10/ Jan van Galenstraat,2020,VRI 922,922.0,
+936TVK037,TV Camera,A10/ Cornelis Lelylaan,2020,VRI 936,936.0,
+952TVK087,TV Camera,Henk Sneevlietweg/S107,2021,VRI-952,952.0,
+952TVK038,TV Camera,Anthony Fokkerweg/ Aalsmeerweg,2020,Eigen voeding,952.0,
+580TVK074,TV Camera,Surinameplein,2021,Eigen voeding,580.0,
+571TVK081,TV Camera,Amstelveenseweg nabij Overtoom (S106),2020,Deelt voeding met ANPR-03041A,571.0,
+680TVK062,TV Camera,Fred Roeskestraat,2019,Eigen voeding,680.0,
+699TVK102,TV Camera,A10 / Amstelveenseweg / buitenring talud A10,2022,Eigen voeding,699.0,
+689TVK012,TV Camera,A10 / Amstelveenseweg / t.o.v. afrit buitenring,2021,Eigen voeding,689.0,
+635TVK011,TV Camera,Europaplein,2020,Eigen voeding,635.0,
+642TVK004,TV Camera,A10/ Europaboulevard,2019,VRI 642,642.0,
+643TVK047,TV Camera,De Boelelaan/ Europaboulevard,2019,Eigen voeding,643.0,
+651TVK002,TV Camera,Utrechtsebrug,2020,VRI 651,651.0,
+662TVK001,TV Camera,Berlagebrug,2020,Eigen voeding,662.0,
+415TVK003,TV Camera,Pr. Bernhardplein 1,2019,VRI 415,415.0,
+436TVK096,TV Camera,Hugo de Vrieslaan/Nobelweg,2022,VRI-436,436.0,
+426TVK063,TV Camera,Middenweg/Kruislaan,2021,VRI-426,426.0,
+479TVK040,TV Camera,A10/ Harteveldseweg,2021,Eigen voeding,479.0,
+478TVK015,TV Camera,A10/ Middenweg,2021,Eigen voeding,478.0,
+480TVK014,TV Camera,A10/ Gooiseweg,2019,VRI 480,480.0,
+302TVK039,TV Camera,A10/ Johannes Blookerweg,2019,Eigen voeding,302.0,
+303TVK032,TV Camera,A10/ Spaklerweg,2021,Eigen voeding,303.0,
+485TVK097,TV Camera,Diemerpolderweg/ oprit A1 S114,2022,VRI-485,485.0,
+472TVK034,TV Camera,IJburglaan/ Cas Oorthuyskade,2019,VRI 472,472.0,
+470TVK023,TV Camera,A10/ IJburglaan,2019,Eigen voeding,470.0,
+467TVK022,TV Camera,Zuiderzeeweg/ IJburglaan,2019,VRI 467,467.0,M
+450TVK064,TV Camera,Waterkeringpad/Zuiderzeeweg,2020,Deelt voeding met ANPR-3029A,450.0,M
+466TVK021,TV Camera,Panamaweg/ IJburglaan,2019,VRI 466,466.0,
+448TVK072,TV Camera,Zeeburgerdijk/Panamalaan,2021,Eigen voeding,448.0,
+420TVK005,TV Camera,Tropenmuseum,2019,Eigen voeding,420.0,
+463TVK073,TV Camera,Piet Heinkade/Vemenplein,2021,VRI-463,463.0,
+463TVK048,TV Camera,Kattenburgerstraat,2019,Eigen voeding,463.0,
+442TVK095,TV Camera,Kattenburgerplein,2022,OVL kast Scheepvaartmuseum,nan,
+404TVK027,TV Camera,Mr. Visserplein,2019,Eigen voeding,404.0,
+548TVK026,TV Camera,Muntplein,2020,Eigen voeding,548.0,
+130TVK080,TV Camera,Tweede Hugo de Grootstraat,2020,Eigen voeding,130.0,
+153TVK016,TV Camera,Dam,2020,Eigen voeding,153.0,
+577TVK010,TV Camera,Overtoom/ Stadhouderskade,2021,VRI 577,577.0,
+590TVK009,TV Camera,Rijksmuseum,2019,Eigen voeding,590.0,
+526TVK008,TV Camera,Stadhouderskade/ v. Woustraat,2019,Eigen voeding,526.0,

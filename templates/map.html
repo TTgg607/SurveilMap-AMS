@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Locations Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; }
+    </style>
+</head>
+<body>
+    <h2>Camera Locations Map</h2>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    // 初始化地图
+    var map = L.map('map').setView([52.3702, 4.8952], 12);
+
+    // 添加地图底图
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+    }).addTo(map);
+
+    // 添加摄像头标记
+    var cameras = {{ cameras | tojson }};
+    cameras.forEach(function(camera) {
+        var marker = L.marker([camera.lat, camera.lon]).addTo(map)
+            .bindPopup("<b>" + camera.camera_id + "</b><br>" + camera.location + "<br>District: " + camera.district_id);
+
+        // 统计点击次数
+        marker.on('click', function() {
+            fetch('/track_map_click', { method: 'POST' });
+        });
+    });
+
+    // 页面停留时间追踪
+    var startTime = Date.now();
+
+    window.addEventListener('beforeunload', function () {
+        var endTime = Date.now();
+        var timeSpent = (endTime - startTime) / 1000;
+
+        navigator.sendBeacon('/track_time', JSON.stringify({
+            page: window.location.pathname,
+            timeSpent: timeSpent
+        }));
+    });
+</script>
+
+</body>
+</html>

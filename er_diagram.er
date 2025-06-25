@@ -1,0 +1,16 @@
+[Districts]
+    *district_id {label:"TEXT"}
+    district_name {label:"TEXT"}
+[camera_locations]
+    *id {label:"INTEGER"}
+    camera_id {label:"TEXT"}
+    district_id {label:"TEXT"}
+    location {label:"TEXT"}
+    power {label:"TEXT"}
+    type {label:"TEXT"}
+    vri_number {label:"TEXT"}
+    year {label:"INTEGER"}
+[city_districts]
+    *district_id {label:"TEXT"}
+    district_name {label:"TEXT"}
+city_districts."district_id" <--* camera_locations."district_id"

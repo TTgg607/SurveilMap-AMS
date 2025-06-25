@@ -1,0 +1,41 @@
+<h2>Camera Locations</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Camera ID</th>
+            <th>Location</th>
+            <th>Power</th>
+            <th>Type</th>
+            <th>VRI Number</th>
+            <th>Year</th>
+            <th>District</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for camera in cameras %}
+        <tr>
+            <td>{{ camera['camera_id'] }}</td>
+            <td>{{ camera['location'] }}</td>
+            <td>{{ camera['power'] }}</td>
+            <td>{{ camera['type'] }}</td>
+            <td>{{ camera['vri_number'] }}</td>
+            <td>{{ camera['year'] }}</td>
+            <td>{{ camera['district_name'] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script>
+    var startTime = Date.now();
+
+    window.addEventListener('beforeunload', function () {
+        var endTime = Date.now();
+        var timeSpent = (endTime - startTime) / 1000;
+
+        navigator.sendBeacon('/track_time', JSON.stringify({
+            page: window.location.pathname,
+            timeSpent: timeSpent
+        }));
+    });
+</script>
